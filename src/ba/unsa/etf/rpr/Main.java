@@ -7,7 +7,7 @@ public class Main {
     private static Korpa korpa = new Korpa();
     private static Supermarket supermarket = new Supermarket();
 
-    private static void unosArtikalaUMarket(){
+    private static void unosArtikalaUMarket() {
         supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "1"));
         supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "2"));
         supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "3"));

@@ -1,8 +1,8 @@
 package ba.unsa.etf.rpr;
 
 public class Korpa {
-    Artikl[] korpica = new Artikl[50];
-    static int polozaj = 0;
+    private Artikl[] korpica = new Artikl[50];
+    private int polozaj = 0;
 
     public boolean dodajArtikl(Artikl artikal) {
         korpica[polozaj++] = artikal;

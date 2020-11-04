@@ -2,11 +2,7 @@ package ba.unsa.etf.rpr;
 
 public class Supermarket {
     private Artikl[] artikli = new Artikl[1000];
-    private static int polozaj = 0;
-    private Artikl cloneArtikl(int i) {
-        Artikl temp = new Artikl(artikli[i]);
-        return temp;
-    }
+    private int polozaj = 0;
 
     public Artikl[] getArtikli() {
         Artikl[] output = new Artikl[polozaj + 1];

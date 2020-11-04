@@ -11,9 +11,10 @@ public class Artikl {
         cijena = artikl.cijena; naziv = artikl.naziv; kod = artikl.kod;
     }
 
-    public void ispisi() {
-        System.out.println("Naziv artikla: " +
-                getNaziv() + "\tCijena artikla: " + getCijena()); // ispis null reference??
+    public String ispisi() {
+        String ispis = "Naziv artikla: " + getNaziv() + "\tCijena artikla: " + getCijena();
+        System.out.println(ispis);
+        return ispis;
     }
     public double getCijena() {
         return cijena;
